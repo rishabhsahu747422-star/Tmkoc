@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+   
+}
+
+main{
+    min-height: 100%;
+    width: 100%;
+    padding: 10px;
+    background-color: gainsboro;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding: 50px;
+}
+
+
+
+#container{
+    height: 450px;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    padding: 20px 50px ;
+    border-radius: 25px;
+}
+#man img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+h1{
+    margin-top: 20px;
+}
+
+h2{
+    font-size: 35px;
+    margin-top: 5px;
+    color: #ea8769;
+    font-weight: 500;
+}
+
+button{
+    font-size: 25px;
+    background-color: #3E3F42;
+    color: white;
+    border: none;
+    padding: 5px 30px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+button:active{
+    scale: 0.96;
+    background-color: #505050;
+}
+
+#container:hover{
+    scale: 0.99;
+    border:2px solid #3E3F42;
+    
+}
+/* 
+#new h2{
+    position: absolute;
+    left: 72%;
+    top: 5%;
+    font-size: 50px;
+    color: #505050;
+    background-color:  #e5e2e2;
+    padding: 20px 30px;
+    border-radius: 50%;
+    border: 10px solid white;
+    cursor: pointer;
+    }
+    #pht{
+        height: 300px;
+        width: 300px;
+        object-fit:cover;
+    margin-top: 70px;
+    z-index: 1;
+    }
+    #pht img{
+        border: 20px solid white;
+        height: 400px;
+        width: 400px;
+        object-fit: cover;
+        border-radius: 50%;
+        }
+        
+#details{
+    height: 600px;
+    width: 800px;
+    background-color: #e5e2e2;
+    border-radius: 33px;
+    padding-left: 120px;
+    }
+    
+    #details h1{
+        font-family: monospace;
+        font-size: 80px;
+        }
+        
+        #details h4 {
+            margin-left: 20px;
+            font-size: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(37, 137, 243);
+            }
+            
+            #details h3 {
+                margin-left: 20px;
+                font-size: 30px;
+                } */
+                
+
+    #new{
+        color: black;
+        font-size: 30px;
+        top: 3%;
+        left: 97%;
+        position: absolute;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        cursor: pointer;
+        
+    }
+    #new:hover{
+        color: #f4a100;
+        scale: 1.2;
+        transition:0.3s;
+    }
+
+
+    .hero{
+    height:100%;
+    width: 100%;
+    display:none;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 8%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    background:#f6f6f6;
+
+}
+
+/* LEFT SIDE */
+
+.hero-left{
+    width:45%;
+}
+
+.hello{
+    color:#f4a100;
+    font-weight:bold;
+    margin-bottom:15px;
+    font-size: 60px;
+}
+
+.hero-left h1{
+    font-size:70px;
+    margin-bottom:20px;
+}
+
+.hero-left span{
+    color:#f4a100;
+}
+
+.badge{
+    display:inline-block;
+    background:#f4a100;
+    padding:8px 18px;
+    margin-bottom:10px;
+    font-size:40px;
+    font-weight:bold;
+}
+
+.badge.dark{
+    background:black;
+    color:white;
+}
+
+.hero-left p{
+    margin:20px 0;
+    color:#555;
+    line-height:1.6;
+    font-size: 50px;
+}
+
+.btn{
+    padding:12px 25px;
+    background:black;
+    color:white;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+}
+
+/* RIGHT SIDE */
+
+.hero-right{
+    position:relative;
+    width:45%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.circle-img{
+    width:450px;
+    height:450px;
+    border-radius:50%;
+    overflow:hidden;
+    border:10px solid white;
+}
+
+.circle-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+/* ICONS */
+
+.icons{
+    position:absolute;
+    right:-40px;
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.icon{
+    width:50px;
+    height:50px;
+    background:black;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.icon:active{scale: 1.2;}
+.icon:hover{
+    background:#f4a100;
+    
+}
+
+
